@@ -1,6 +1,6 @@
 {
   "day": "2026-10-01",
-  "as_of": "2026-10-01T12:28:17.379159+00:00",
+  "as_of": "2026-10-01T14:42:17.715382+00:00",
   "race_count": 168,
   "active_venues": 14,
   "venues": [
@@ -2601,7 +2601,7 @@
       "entries": 6,
       "preview": 6,
       "odds": 120,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
@@ -2614,9 +2614,9 @@
       "title": "準優勝戦",
       "deadline": "2026-10-01 21:51:00",
       "entries": 6,
-      "preview": 0,
-      "odds": 0,
-      "result": false,
+      "preview": 6,
+      "odds": 120,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
@@ -2629,9 +2629,9 @@
       "title": "準優勝戦",
       "deadline": "2026-10-01 22:16:00",
       "entries": 6,
-      "preview": 0,
-      "odds": 0,
-      "result": false,
+      "preview": 6,
+      "odds": 120,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
@@ -2644,9 +2644,9 @@
       "title": "一般",
       "deadline": "2026-10-01 22:41:00",
       "entries": 6,
-      "preview": 0,
-      "odds": 0,
-      "result": false,
+      "preview": 6,
+      "odds": 120,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
@@ -2657,112 +2657,112 @@
     {
       "source": "payouts",
       "status": 200,
-      "observed_at": "2026-10-01T12:28:10.476478+00:00",
+      "observed_at": "2026-10-01T14:42:12.250556+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "realtime",
       "status": 200,
-      "observed_at": "2026-10-01T12:28:10.476709+00:00",
+      "observed_at": "2026-10-01T14:42:12.243507+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "od3",
       "status": 200,
-      "observed_at": "2026-10-01T12:28:10.415476+00:00",
+      "observed_at": "2026-10-01T14:42:12.200335+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "tokuten_hayami",
       "status": 200,
-      "observed_at": "2026-10-01T12:28:10.451714+00:00",
+      "observed_at": "2026-10-01T14:42:12.159810+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "original_exhibition",
       "status": 200,
-      "observed_at": "2026-10-01T12:28:10.363001+00:00",
+      "observed_at": "2026-10-01T14:42:12.203810+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "sui",
       "status": 200,
-      "observed_at": "2026-10-01T12:28:10.322657+00:00",
+      "observed_at": "2026-10-01T14:42:12.143771+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "stt",
       "status": 200,
-      "observed_at": "2026-10-01T12:28:10.276913+00:00",
+      "observed_at": "2026-10-01T14:42:12.104573+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "tkz",
       "status": 200,
-      "observed_at": "2026-10-01T12:28:10.258307+00:00",
+      "observed_at": "2026-10-01T14:42:12.020573+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "motor_history",
       "status": 404,
-      "observed_at": "2026-10-01T12:28:10.201002+00:00",
+      "observed_at": "2026-10-01T14:42:12.053559+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "motor_stats",
       "status": 200,
-      "observed_at": "2026-10-01T12:28:10.244243+00:00",
+      "observed_at": "2026-10-01T14:42:11.957385+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "recent_local",
       "status": 200,
-      "observed_at": "2026-10-01T12:28:10.173442+00:00",
+      "observed_at": "2026-10-01T14:42:11.934730+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "recent_national",
       "status": 200,
-      "observed_at": "2026-10-01T12:28:10.153886+00:00",
+      "observed_at": "2026-10-01T14:42:12.028935+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "waku10",
       "status": 200,
-      "observed_at": "2026-10-01T12:28:10.048966+00:00",
+      "observed_at": "2026-10-01T14:42:11.833903+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "race_cards",
       "status": 200,
-      "observed_at": "2026-10-01T12:28:10.060099+00:00",
+      "observed_at": "2026-10-01T14:42:11.841962+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "title",
       "status": 200,
-      "observed_at": "2026-10-01T12:28:10.024919+00:00",
+      "observed_at": "2026-10-01T14:42:11.761249+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "openapi",
       "status": 200,
-      "observed_at": "2026-10-01T12:28:10.087142+00:00",
+      "observed_at": "2026-10-01T14:42:12.038148+00:00",
       "error": null,
       "normalized": 1
     }
