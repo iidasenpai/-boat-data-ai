@@ -1,0 +1,41 @@
+name: Boat data
+
+on:
+  schedule:
+    - cron: '7 23,0-14,16 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - boatdata/**
+      - .github/workflows/collect.yml
+      - bootstrap-data.zip
+
+permissions:
+  contents: read
+
+concurrency:
+  group: boat-data-single-writer
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    if: github.event.repository.private == false && github.event.repository.visibility == 'public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: write
+      pages: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      BOAT_GENERATION: ${{ github.run_id }}-${{ github.run_attempt }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test
+        run: python -m unittest discover -s tests -v
+      - name: Collect and save
+        run: python -m boatdata.github_cycle
