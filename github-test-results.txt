@@ -1,0 +1,42 @@
+test_actual_course_not_lane (test_foundation.FoundationTest.test_actual_course_not_lane) ... ok
+test_all_fourteen_slots_preserved (test_foundation.FoundationTest.test_all_fourteen_slots_preserved) ... ok
+test_backup_raw_and_db (test_foundation.FoundationTest.test_backup_raw_and_db) ... ok
+test_confirmed_absence_not_missing_or_start (test_foundation.FoundationTest.test_confirmed_absence_not_missing_or_start) ... ok
+test_csv_old_timestamp_not_proof_of_availability (test_foundation.FoundationTest.test_csv_old_timestamp_not_proof_of_availability) ... ok
+test_csv_result_mapping (test_foundation.FoundationTest.test_csv_result_mapping) ... ok
+test_dedup_and_correction (test_foundation.FoundationTest.test_dedup_and_correction) ... ok
+test_display_l_is_observed_status_not_missing (test_foundation.FoundationTest.test_display_l_is_observed_status_not_missing) ... ok
+test_f_denominator (test_foundation.FoundationTest.test_f_denominator) ... ok
+test_future_source_time_excluded (test_foundation.FoundationTest.test_future_source_time_excluded) ... ok
+test_immutable (test_foundation.FoundationTest.test_immutable) ... ok
+test_invalid_ingest_rolls_back (test_foundation.FoundationTest.test_invalid_ingest_rolls_back) ... ok
+test_jst (test_foundation.FoundationTest.test_jst) ... ok
+test_late_download_excluded (test_foundation.FoundationTest.test_late_download_excluded) ... ok
+test_motor_epoch (test_foundation.FoundationTest.test_motor_epoch) ... ok
+test_pending_result_placeholder_not_completed (test_foundation.FoundationTest.test_pending_result_placeholder_not_completed) ... ok
+test_raw_dedup_fetch_logs (test_foundation.FoundationTest.test_raw_dedup_fetch_logs) ... ok
+test_small_sample_smoothing (test_foundation.FoundationTest.test_small_sample_smoothing) ... ok
+test_source_conflict (test_foundation.FoundationTest.test_source_conflict) ... ok
+test_st (test_foundation.FoundationTest.test_st) ... ok
+test_unknown_schedule_not_non_racing (test_foundation.FoundationTest.test_unknown_schedule_not_non_racing) ... ok
+test_zero_odds (test_foundation.FoundationTest.test_zero_odds) ... ok
+test_build_site_and_checkpoint_view_retention (test_github_cycle.CycleTest.test_build_site_and_checkpoint_view_retention) ... ok
+test_existing_unrelated_site_is_preserved (test_github_cycle.CycleTest.test_existing_unrelated_site_is_preserved) ... ok
+test_first_deploy_and_update_without_force_push (test_github_cycle.CycleTest.test_first_deploy_and_update_without_force_push) ... ok
+test_pages_not_configured_reports_required_setup (test_github_cycle.CycleTest.test_pages_not_configured_reports_required_setup) ... ok
+test_checksum_failure_stops_restore (test_github_state.GitHubStateTest.test_checksum_failure_stops_restore) ... ok
+test_interrupted_manifest_upload_preserves_previous (test_github_state.GitHubStateTest.test_interrupted_manifest_upload_preserves_previous) ... ok
+test_interrupted_state_upload_preserves_previous (test_github_state.GitHubStateTest.test_interrupted_state_upload_preserves_previous) ... ok
+test_manifest_uploaded_last (test_github_state.GitHubStateTest.test_manifest_uploaded_last) ... ok
+test_missing_database_does_not_reset (test_github_state.GitHubStateTest.test_missing_database_does_not_reset) ... ok
+test_only_new_raw_uploaded (test_github_state.GitHubStateTest.test_only_new_raw_uploaded) ... ok
+test_orphan_initial_upload_requires_inspection (test_github_state.GitHubStateTest.test_orphan_initial_upload_requires_inspection) ... ok
+test_pruning_never_deletes_raw (test_github_state.GitHubStateTest.test_pruning_never_deletes_raw) ... ok
+test_restore_database_and_original_raw (test_github_state.GitHubStateTest.test_restore_database_and_original_raw) ... ok
+test_zip_traversal_rejected (test_github_state.GitHubStateTest.test_zip_traversal_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 0.693s
+
+OK
+::warning::画面はgh-pagesに保存済み。Settings > PagesでDeploy from a branch / gh-pages / rootを選んでください。

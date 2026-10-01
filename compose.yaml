@@ -1,0 +1,16 @@
+services:
+  collector:
+    build: .
+    restart: unless-stopped
+    volumes:
+      - ./data:/data
+    command: ["python", "-m", "boatdata", "--data", "/data", "daemon"]
+  dashboard:
+    build: .
+    restart: unless-stopped
+    volumes:
+      - ./data:/data:ro
+    ports:
+      - "127.0.0.1:8080:8080"
+    # Serve only exported dashboard files, not the database or raw source records.
+    command: ["python", "-m", "http.server", "8080", "--bind", "0.0.0.0", "--directory", "/data/dashboard"]

@@ -1,0 +1,12 @@
+{
+  "tests": 36,
+  "snapshots": 6281,
+  "race_records": 456,
+  "completed_races": 288,
+  "raw_objects": 48,
+  "archive_restore": "real data roundtrip passed",
+  "profiles_restored": "match",
+  "site_bytes": 8730341,
+  "github_live_deployment": false,
+  "github_repositories_visible": 0
+}
