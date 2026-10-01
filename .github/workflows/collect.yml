@@ -3,8 +3,7 @@ name: Boat data (free public repository only)
 on:
   schedule:
     # UTC -> JST: 08:07..23:07 and 01:07. Hourly, away from busy minute zero.
-    - cron: '7,17,27,37,47,57 23,0-14,16 * * *'
-  workflow_dispatch:
+        - cron: '3,13,23,33,43,53 23,0-14,16 * * *'
   push:
     branches: [main]
     paths:
