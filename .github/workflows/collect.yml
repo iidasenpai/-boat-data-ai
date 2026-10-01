@@ -1,8 +1,9 @@
-name: Boat data
+name: Boat data (free public repository only)
 
 on:
   schedule:
-    - cron: '7 23,0-14,16 * * *'
+    # UTC -> JST: 08:07..23:07 and 01:07. Hourly, away from busy minute zero.
+    - cron: '7,17,27,37,47,57 23,0-14,16 * * *'
   workflow_dispatch:
   push:
     branches: [main]
@@ -20,6 +21,7 @@ concurrency:
 
 jobs:
   collect:
+    # This prevents private repository runs from consuming paid Actions minutes.
     if: github.event.repository.private == false && github.event.repository.visibility == 'public'
     runs-on: ubuntu-latest
     timeout-minutes: 25
@@ -37,5 +39,22 @@ jobs:
           python-version: '3.12'
       - name: Test
         run: python -m unittest discover -s tests -v
-      - name: Collect and save
+      - name: Restore, collect, preserve, and update Pages branch
         run: python -m boatdata.github_cycle
+      - name: Run summary
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          report=Path('cycle-report.json')
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as f:
+              if report.exists():
+                  value=json.loads(report.read_text(encoding='utf-8'))
+                  f.write('保存世代: '+value['manifest_generation']+'\n\n')
+                  for day in value['days']:
+                      errors=[s['source'] for s in day['sources'] if s['error']]
+                      f.write(day['day']+': 取得元のエラー '+(', '.join(errors) or 'なし')+'\n\n')
+              else:
+                  f.write('収集レポート未生成。失敗したステップのログを確認してください。\n')
+          PY
