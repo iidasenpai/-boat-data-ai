@@ -7,7 +7,7 @@ from itertools import permutations
 from .store import instant, number, dump
 from .ingest import entries, normalized_preview, normalized_result
 
-VERSION = 'rules-0.1'
+VERSION = 'rules-0.2'
 
 def predict(store, rid, as_of):
     at = instant(as_of)
@@ -51,21 +51,19 @@ def predict(store, rid, as_of):
         rows.append({'lane':lane,'name':e.get('name'),'course':course,'score':round(score,2),'reasons':reasons,'missing':missing,'exhibition_time':exhibition,'exhibition_st':st,'average_st':avg,'meeting_points':point})
     ranked = sorted(rows,key=lambda x:(-x['score'],x['lane']))
     # Only a provisional shortlist until sufficient recent exhibition data exists.
-    fresh = True
-    for kind, source in [('preview','openapi')]:
-        snap = store.latest(rid,kind,at,source)
-        if not snap or (datetime.fromisoformat(at)-datetime.fromisoformat(snap['first_seen_at'])) > timedelta(minutes=10):
-            fresh = False
+    # Freshness comes from the last successful observation, not the first time
+    # identical payloads were seen (snapshots are deduplicated).
+    fetch = store.db.execute("SELECT observed_at FROM fetches WHERE source='openapi' AND status=200 AND normalized=1 AND observed_at<=? ORDER BY observed_at DESC LIMIT 1", (at,)).fetchone()
+    fresh = bool(fetch and datetime.fromisoformat(at)-datetime.fromisoformat(fetch[0]) <= timedelta(minutes=10))
     complete = course_known and len(times)==6 and all(number(p.get('st')) is not None for p in preview.values()) and not any(r['missing'] for r in rows)
-    tickets = []
-    if fresh and complete:
-        head = ranked[0]['lane']
-        seconds = [r['lane'] for r in ranked[1:3]]
-        thirds = [r['lane'] for r in ranked[1:4]]
-        outer = max((r for r in rows if r['lane'] in (5,6)),key=lambda r:r['score'])['lane']
-        if outer != head and outer not in thirds: thirds.append(outer)
-        tickets = [f'{head}-{b}-{c}' for b in seconds for c in thirds if b!=c]
-    return {'race_id':rid,'at':at,'deadline':deadline,'version':VERSION,'status':'参考買い目' if tickets else '事前評価・買い目保留','rows':ranked,'tickets':tickets,'count':len(tickets),'total_yen':100*len(tickets),'formation':f'{head} → '+','.join(map(str,seconds))+' → '+','.join(map(str,thirds)) if tickets else None,'notes':['未学習の固定ルール。評価点は的中確率ではありません。','今節全走のコース・ST・整備・周回気配は自動精査未対応。','展示未取得・取得から10分超・主要項目欠損では買い目を保留。','毎時更新のため直前情報は公式出走表で確認。']}
+    head = ranked[0]['lane']
+    seconds = [r['lane'] for r in ranked[1:3]]
+    thirds = [r['lane'] for r in ranked[1:4]]
+    outer = max((r for r in rows if r['lane'] in (5,6)),key=lambda r:r['score'])['lane']
+    if outer != head and outer not in thirds: thirds.append(outer)
+    tickets = [f'{head}-{b}-{c}' for b in seconds for c in thirds if b!=c]
+    final_ready = fresh and complete
+    return {'race_id':rid,'at':at,'deadline':deadline,'version':VERSION,'status':'展示反映・参考買い目' if final_ready else '展示前・暫定買い目','final_ready':final_ready,'rows':ranked,'tickets':tickets,'count':len(tickets),'total_yen':100*len(tickets),'formation':f'{head} → '+','.join(map(str,seconds))+' → '+','.join(map(str,thirds)) if tickets else None,'notes':['未学習の固定ルール。評価点は的中確率ではありません。','今節全走のコース・ST・整備・周回気配は自動精査未対応。','展示や主要項目が不足する買い目は暫定。直前精査は未完了。','定期更新には遅延があります。直前情報は公式出走表で確認。']}
 
 def build_predictions(store, day, as_of):
     result = []
