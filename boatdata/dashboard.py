@@ -1,0 +1,42 @@
+import html
+import json
+from pathlib import Path
+from .store import dump
+
+TEMPLATE = '''<!doctype html><html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>ボートレース データ基盤</title><style>
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#0b1220;color:#e6edf7;font:15px system-ui,sans-serif}main{max-width:1180px;margin:auto;padding:26px 18px}h1{font-size:25px}h2{font-size:20px}small,.muted{color:#98a9bd}nav{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}button,input,select{font:inherit;padding:10px 14px;border:1px solid #34425c;border-radius:8px;background:#18263a;color:inherit}button{cursor:pointer}button.active{background:#126e79}input{width:100%;margin:12px 0}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}.card{padding:18px;border:1px solid #273951;border-radius:12px;background:#111e31}.big{font-size:27px;font-weight:700;color:#7dddd3}.scroll{overflow:auto}table{width:100%;border-collapse:collapse;white-space:nowrap}td,th{text-align:left;padding:11px 12px;border-bottom:1px solid #25344a}th{color:#9caec5}.warn{color:#ffc074}.ok{color:#7dddd3}.detail{background:#111e31;padding:20px;border-radius:10px;margin-top:16px}.badge{font-size:12px;background:#20354c;padding:4px 8px;border-radius:6px}pre{white-space:pre-wrap;overflow-wrap:anywhere;max-height:300px;overflow:auto}a{color:#8cdce0}.note{line-height:1.8;color:#b7c5d7}footer{margin-top:26px;color:#8fa2b9;font-size:13px}</style>
+<main><span class="badge">収集基盤 v0.1 · 予測モデル搭載前</span><h1>ボートレース データ基盤</h1><p class="muted" id="time"></p><div class="cards" id="metrics"></div><nav id="nav"></nav><div id="content"></div><footer>この画面は書き出し時点のスナップショットです。カルテは蓄積済みデータだけの集計で、将来の的中を保証するスコアではありません。<br>「開催未確認」は非開催の確定情報ではありません。ゼロ件・未取得・配信対象外を区別して確認してください。</footer></main>
+<script id="data" type="application/json">__DATA__</script><script>
+const data=JSON.parse(document.getElementById('data').textContent),m=data.monitor,p=data.profiles;
+const esc=x=>String(x??'—').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const pct=x=>x==null?'—':(100*x).toFixed(1)+'%';const num=x=>x==null?'—':Number(x).toFixed(3);
+const table=(heads,rows)=>'<div class="scroll"><table><thead><tr>'+heads.map(h=>'<th>'+esc(h)+'</th>').join('')+'</tr></thead><tbody>'+rows.map(row=>'<tr>'+row.map(v=>'<td>'+v+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>';
+const stats=s=>[s.n,pct(s.win_rate),pct(s.top2_rate),pct(s.top3_rate),num(s.mean_st),num(s.exhibition_to_race_st_delta)];
+const statsTable=obj=>table(['条件','走数','1着率','2連率','3連率','平均ST','本番ST−展示ST'],Object.entries(obj).map(([k,s])=>[esc(k),...stats(s)]));
+document.getElementById('time').textContent='対象日 '+m.day+' ／ 更新 '+new Date(m.as_of).toLocaleString('ja-JP');
+document.getElementById('metrics').innerHTML=[['出走表のある場',m.active_venues+'/24'],['保存レース',m.race_count],['結果保存',m.races.filter(r=>r.result).length],['確認事項',m.issue_count]].map(([a,b])=>'<div class="card"><small>'+a+'</small><div class="big">'+b+'</div></div>').join('');
+let tab='収集状況';const names=['収集状況','選手カルテ','会場カルテ','モーターカルテ'];
+const content=document.getElementById('content');
+function activate(n){tab=n;document.getElementById('nav').innerHTML=names.map(x=>'<button class="'+(x==n?'active':'')+'" data-tab="'+x+'">'+x+'</button>').join('');document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>activate(b.dataset.tab));render();}
+function render(){if(tab==='収集状況'){content.innerHTML='<h2>レース別取得状況</h2>'+table(['場 / R','締切','出走','展示','オッズ','結果','確認事項'],m.races.map(r=>[esc(r.venue)+' '+r.number+'R',esc(r.deadline),r.entries+'/6',r.preview+'/6',r.odds+'/120',r.result?'保存済':'未取得','<span class="warn">'+esc(r.issues.join(' / ')||'—')+'</span>']))+'<h2>取得元</h2>'+table(['ソース','HTTP','受信時刻','状態'],m.fetches.map(f=>[esc(f.source),esc(f.status),esc(f.observed_at),esc(f.error||'受信済')]))+'<details><summary>24場の確認状況</summary>'+table(['場','状態'],m.venues.map(v=>[esc(v.name),esc(v.status)]))+'</details><p class="note">'+esc(m.optional_fields)+'<br>'+esc(m.official_audit)+'</p>';return;}
+if(tab==='選手カルテ'){content.innerHTML='<h2>選手カルテ</h2><input id="q" placeholder="選手名・登録番号で検索"><div id="list"></div><div id="detail"></div>';document.getElementById('q').oninput=()=>players();players();return;}
+if(tab==='会場カルテ'){content.innerHTML='<h2>会場カルテ</h2><select id="venue">'+m.venues.map(v=>'<option value="'+v.code+'">'+v.name+'</option>').join('')+'</select> <select id="period"><option>30d</option><option>90d</option><option>365d</option></select><div id="detail"></div>';document.getElementById('venue').onchange=venue;document.getElementById('period').onchange=venue;venue();return;}
+content.innerHTML='<h2>モーターカルテ</h2><input id="q" placeholder="場コード・モーター番号で検索"><div id="list"></div><div id="detail"></div>';document.getElementById('q').oninput=motors;motors();}
+function players(){const q=document.getElementById('q').value;document.getElementById('list').innerHTML=table(['選手','走数','1着率','2連率','3連率','平均ST'],Object.entries(p.players).filter(([id,x])=>(id+x.name).includes(q)).slice(0,100).map(([id,x])=>['<button data-player="'+id+'">'+esc(x.name)+' ('+id+')</button>',x.all.n,pct(x.all.win_rate),pct(x.all.top2_rate),pct(x.all.top3_rate),num(x.all.mean_st)]));document.querySelectorAll('[data-player]').forEach(b=>b.onclick=()=>{const x=p.players[b.dataset.player];document.getElementById('detail').innerHTML='<div class="detail"><h2>'+esc(x.name)+'</h2><h3>実際の進入コース別</h3>'+statsTable(x.courses)+'<h3>最近の成績</h3>'+statsTable(x.windows)+'<h3>会場別</h3>'+statsTable(x.venues)+'<h3>F本数別</h3>'+statsTable(x.f_count)+'<h3>風速別</h3>'+statsTable(x.wind)+'<details><summary>直近実績・全数値</summary><pre>'+esc(JSON.stringify(x,null,2))+'</pre></details></div>';});}
+function venue(){const x=p.venues[document.getElementById('venue').value],v=x.periods[document.getElementById('period').value];document.getElementById('detail').innerHTML='<div class="detail"><h3>コース別</h3>'+statsTable(v.courses)+'<h3>風速 × コース</h3>'+statsTable(v.wind_courses)+'<h3>当日ここまで ('+x.today.race_n+'R)</h3>'+statsTable(x.today.courses)+'<details><summary>条件別の全数値</summary><pre>'+esc(JSON.stringify(v,null,2))+'</pre></details></div>';}
+function motors(){const q=document.getElementById('q').value;document.getElementById('list').innerHTML=table(['場:番号:使用期','走数','1着率','2連率','3連率','期確認'],Object.entries(p.motors).filter(([key])=>key.includes(q)).slice(0,100).map(([key,x])=>['<button data-motor="'+esc(key)+'">'+esc(key)+'</button>',x.all.n,pct(x.all.win_rate),pct(x.all.top2_rate),pct(x.all.top3_rate),x.epoch_verified?'確認済':'未確認']));document.querySelectorAll('[data-motor]').forEach(b=>b.onclick=()=>{const x=p.motors[b.dataset.motor];document.getElementById('detail').innerHTML='<div class="detail"><h2>'+esc(b.dataset.motor)+'</h2>'+statsTable({'全走':x.all,'直近20走':x.last_20})+'<h3>実コース別</h3>'+statsTable(x.courses)+'<p class="note">'+esc(x.note)+'</p><pre>'+esc(JSON.stringify(x.recent_runs,null,2))+'</pre></div>';});}
+activate(tab);
+</script></html>'''
+
+def export_dashboard(store, monitor, profiles):
+    output = store.root / 'dashboard'
+    output.mkdir(exist_ok=True)
+    (output/'monitor.json').write_text(json.dumps(monitor,ensure_ascii=False,indent=2),encoding='utf-8')
+    (output/'profiles.json').write_text(json.dumps(profiles,ensure_ascii=False,indent=2),encoding='utf-8')
+    # Escape script closing tags from untrusted names/titles.
+    encoded = dump({'monitor':monitor,'profiles':profiles}).replace('<','\\u003c').replace('>','\\u003e').replace('&','\\u0026')
+    path = output / 'index.html'
+    temp = output / 'index.tmp'
+    temp.write_text(TEMPLATE.replace('__DATA__',encoded),encoding='utf-8')
+    temp.replace(path)
+    return str(path)
