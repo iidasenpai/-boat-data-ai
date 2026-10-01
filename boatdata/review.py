@@ -16,7 +16,7 @@ def build_reviews(store, as_of, limit=600):
         deadline=program.get('closed_at')
         saved=None
         if deadline:
-            saved=store.db.execute('SELECT * FROM predictions WHERE race_id=? AND predicted_at<? AND predicted_at<=? ORDER BY predicted_at DESC,id DESC LIMIT 1',(rid,instant(deadline),instant(as_of))).fetchone()
+            saved=store.db.execute('SELECT * FROM predictions WHERE race_id=? AND model_version!="rules-meeting-0.1" AND predicted_at<? AND predicted_at<=? ORDER BY predicted_at DESC,id DESC LIMIT 1',(rid,instant(deadline),instant(as_of))).fetchone()
         prediction=json.loads(saved['payload']) if saved else None
         tickets=prediction.get('tickets',[]) if prediction else []
         hit=combination in tickets if tickets and combination else None
@@ -38,6 +38,17 @@ def build_reviews(store, as_of, limit=600):
             comments.append('展示反映の参考予想。' if prediction.get('final_ready') else '暫定予想の記録。直前精査は未完了。')
         if refund:comments.append('返還・欠場等あり。参考収支の計算対象外。')
         item={'race_id':rid,'day':race['race_date'],'venue':VENUES[race['venue']-1],'number':race['race_number'],'combination':combination,'payout':amount,'prediction':prediction,'tickets':tickets,'hit':hit,'cost':cost,'returned':returned,'profit':returned-cost if returned is not None else None,'comments':comments,'technique':result.get('technique'),'racers':[dict(lane=k,**v) for k,v in result['racers'].items()]}
+        comparison=None
+        if saved:
+            other=store.db.execute('SELECT * FROM predictions WHERE race_id=? AND model_version=? AND predicted_at=? ORDER BY id DESC LIMIT 1',(rid,'rules-meeting-0.1',saved['predicted_at'])).fetchone()
+            if other:
+                candidate=json.loads(other['payload']);ct=candidate.get('tickets',[])
+                ch=combination in ct if combination and ct else None
+                cr=(amount if ch else 0) if ch is not None and amount is not None and not refund else None
+                comparison={'prediction':candidate,'hit':ch,'cost':len(ct)*100,'returned':cr,'profit':cr-len(ct)*100 if cr is not None else None}
+                snap=store.latest(rid,'result',as_of)
+                if snap:store.db.execute('INSERT OR IGNORE INTO reviews(prediction_id,reviewed_at,result_fingerprint,payload) VALUES(?,?,?,?)',(other['id'],instant(as_of),snap['fingerprint'],dump(comparison)))
+        item['comparison']=comparison
         records.append(item)
         if saved:
             snap=store.latest(rid,'result',as_of)

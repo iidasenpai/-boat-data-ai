@@ -5,11 +5,12 @@ import math
 from datetime import datetime, timedelta
 from itertools import permutations
 from .store import instant, number, dump
+from .meeting import meeting_runs, adjustment
 from .ingest import entries, normalized_preview, normalized_result
 
 VERSION = 'rules-0.2'
 
-def predict(store, rid, as_of):
+def predict(store, rid, as_of, improved=False):
     at = instant(as_of)
     program = store.payload(rid, 'program', at, 'openapi') or {}
     deadline = program.get('closed_at')
@@ -21,6 +22,7 @@ def predict(store, rid, as_of):
     preview = normalized_preview(store, rid, at)
     points = store.payload(rid, 'tokuten_hayami', at, 'csv') or {}
     rows = []
+    runs, meeting = meeting_runs(store,rid,at) if improved else ({},None)
     times = [number(p.get('time')) for p in preview.values() if number(p.get('time')) is not None]
     courses = [number(preview.get(l, {}).get('course')) for l in boats]
     course_known = sorted(c for c in courses if c is not None) == [1,2,3,4,5,6]
@@ -48,7 +50,10 @@ def predict(store, rid, as_of):
         point = number(points.get(f'艇{lane}_得点率'))
         if point is not None:
             score += max(-4,min(4,(point-5)*1.2))
-        rows.append({'lane':lane,'name':e.get('name'),'course':course,'score':round(score,2),'reasons':reasons,'missing':missing,'exhibition_time':exhibition,'exhibition_st':st,'average_st':avg,'meeting_points':point})
+        change=adjustment(runs.get(lane,[])) if improved else 0
+        score+=change
+        if improved:reasons.append(f'今節取得 {len(runs.get(lane,[]))}走 / コース・ST補正 {change:+.3f}')
+        rows.append({'meeting_runs':runs.get(lane,[]),'meeting_adjustment':change,'lane':lane,'name':e.get('name'),'course':course,'score':round(score,2),'reasons':reasons,'missing':missing,'exhibition_time':exhibition,'exhibition_st':st,'average_st':avg,'meeting_points':point})
     ranked = sorted(rows,key=lambda x:(-x['score'],x['lane']))
     # Only a provisional shortlist until sufficient recent exhibition data exists.
     # Freshness comes from the last successful observation, not the first time
@@ -63,15 +68,20 @@ def predict(store, rid, as_of):
     if outer != head and outer not in thirds: thirds.append(outer)
     tickets = [f'{head}-{b}-{c}' for b in seconds for c in thirds if b!=c]
     final_ready = fresh and complete
-    return {'race_id':rid,'at':at,'deadline':deadline,'version':VERSION,'status':'展示反映・参考買い目' if final_ready else '展示前・暫定買い目','final_ready':final_ready,'rows':ranked,'tickets':tickets,'count':len(tickets),'total_yen':100*len(tickets),'formation':f'{head} → '+','.join(map(str,seconds))+' → '+','.join(map(str,thirds)) if tickets else None,'notes':['未学習の固定ルール。評価点は的中確率ではありません。','今節全走のコース・ST・整備・周回気配は自動精査未対応。','展示や主要項目が不足する買い目は暫定。直前精査は未完了。','定期更新には遅延があります。直前情報は公式出走表で確認。']}
+    notes=['未学習の固定ルール。評価点は的中確率ではありません。','今節は取得済みの走だけ。着順は実コース別の固定基準から補正し、少数走は縮小。' if improved else '今節全走のコース・STは未反映。','整備・周回気配は未対応。','定期更新には遅延があります。直前情報は公式出走表で確認。']
+    if improved:notes.append(meeting['note'])
+    return {'race_id':rid,'at':at,'deadline':deadline,'version':'rules-meeting-0.1' if improved else VERSION,'meeting':meeting,'status':'展示反映・参考買い目' if final_ready else '展示前・暫定買い目','final_ready':final_ready,'rows':ranked,'tickets':tickets,'count':len(tickets),'total_yen':100*len(tickets),'formation':f'{head} → '+','.join(map(str,seconds))+' → '+','.join(map(str,thirds)) if tickets else None,'notes':notes}
 
 def build_predictions(store, day, as_of):
     result = []
     for row in store.db.execute('SELECT race_id FROM races WHERE race_date=? ORDER BY venue,race_number',(day,)).fetchall():
-        prediction = predict(store,row[0],as_of)
-        if prediction:
-            key = hashlib.sha256((row[0]+VERSION+dump(prediction)).encode()).hexdigest()
-            store.db.execute('INSERT OR IGNORE INTO predictions VALUES(?,?,?,?,?)',(key,row[0],instant(as_of),VERSION,dump(prediction)))
-            result.append(prediction)
+        baseline = predict(store,row[0],as_of)
+        if baseline:
+            improved = predict(store,row[0],as_of,improved=True)
+            for prediction in (baseline,improved):
+                key = hashlib.sha256((row[0]+prediction['version']+dump(prediction)).encode()).hexdigest()
+                store.db.execute('INSERT OR IGNORE INTO predictions VALUES(?,?,?,?,?)',(key,row[0],instant(as_of),prediction['version'],dump(prediction)))
+            improved['baseline']=baseline
+            result.append(improved)
     store.db.commit()
     return result
