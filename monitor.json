@@ -1,6 +1,6 @@
 {
   "day": "2026-10-02",
-  "as_of": "2026-10-02T00:24:25.143942+00:00",
+  "as_of": "2026-10-02T00:25:35.882374+00:00",
   "race_count": 168,
   "active_venues": 14,
   "venues": [
@@ -2653,112 +2653,112 @@
     {
       "source": "payouts",
       "status": 200,
-      "observed_at": "2026-10-02T00:24:19.619778+00:00",
+      "observed_at": "2026-10-02T00:25:29.705207+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "realtime",
       "status": 200,
-      "observed_at": "2026-10-02T00:24:19.580993+00:00",
+      "observed_at": "2026-10-02T00:25:29.661721+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "od3",
       "status": 200,
-      "observed_at": "2026-10-02T00:24:19.562533+00:00",
+      "observed_at": "2026-10-02T00:25:29.575472+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "tokuten_hayami",
       "status": 200,
-      "observed_at": "2026-10-02T00:24:19.529839+00:00",
+      "observed_at": "2026-10-02T00:25:29.625677+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "original_exhibition",
       "status": 200,
-      "observed_at": "2026-10-02T00:24:19.490576+00:00",
+      "observed_at": "2026-10-02T00:25:29.594508+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "sui",
       "status": 200,
-      "observed_at": "2026-10-02T00:24:19.478726+00:00",
+      "observed_at": "2026-10-02T00:25:29.525697+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "stt",
       "status": 200,
-      "observed_at": "2026-10-02T00:24:19.465106+00:00",
+      "observed_at": "2026-10-02T00:25:29.594048+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "tkz",
       "status": 200,
-      "observed_at": "2026-10-02T00:24:19.386850+00:00",
+      "observed_at": "2026-10-02T00:25:29.490252+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "motor_history",
       "status": 404,
-      "observed_at": "2026-10-02T00:24:19.323353+00:00",
+      "observed_at": "2026-10-02T00:25:29.542631+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "motor_stats",
       "status": 200,
-      "observed_at": "2026-10-02T00:24:19.527977+00:00",
+      "observed_at": "2026-10-02T00:25:29.491867+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "recent_local",
       "status": 200,
-      "observed_at": "2026-10-02T00:24:19.379145+00:00",
+      "observed_at": "2026-10-02T00:25:29.455116+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "recent_national",
       "status": 200,
-      "observed_at": "2026-10-02T00:24:19.239877+00:00",
+      "observed_at": "2026-10-02T00:25:29.494901+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "waku10",
       "status": 200,
-      "observed_at": "2026-10-02T00:24:19.168633+00:00",
+      "observed_at": "2026-10-02T00:25:29.354975+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "race_cards",
       "status": 200,
-      "observed_at": "2026-10-02T00:24:19.185207+00:00",
+      "observed_at": "2026-10-02T00:25:29.352956+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "title",
       "status": 200,
-      "observed_at": "2026-10-02T00:24:19.129968+00:00",
+      "observed_at": "2026-10-02T00:25:29.329553+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "openapi",
       "status": 200,
-      "observed_at": "2026-10-02T00:24:19.425723+00:00",
+      "observed_at": "2026-10-02T00:25:29.440010+00:00",
       "error": null,
       "normalized": 1
     }
