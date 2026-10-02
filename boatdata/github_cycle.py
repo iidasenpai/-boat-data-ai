@@ -14,7 +14,7 @@ from .monitor import monitor
 from .dashboard import export_dashboard
 from .github_state import GitHub,restore,persist,prune_checkpoints,extract_safe
 
-MAX_SITE=20*1024*1024
+MAX_SITE=90*1024*1024
 
 def build_site(store,day,output):
     profile=build_profiles(store,now())
@@ -36,7 +36,7 @@ def build_site(store,day,output):
         'issues':status['issue_count'],'completed_profiles':profile['race_count'],
         'mode':'GitHubの定期更新。締切前の反映は保証しません。'},ensure_ascii=False),encoding='utf-8')
     total=sum(p.stat().st_size for p in output.rglob('*') if p.is_file())
-    if total>MAX_SITE:raise ValueError('site exceeds 20 MiB; reduce display before deploying (DB/RAW still preserved)')
+    if total>MAX_SITE:raise ValueError('site exceeds 90 MiB; reduce display before deploying (DB/RAW still preserved)')
     return status
 
 def deploy_site(gh,output):
