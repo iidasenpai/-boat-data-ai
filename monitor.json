@@ -1,6 +1,6 @@
 {
   "day": "2026-10-03",
-  "as_of": "2026-10-02T20:38:58.304641+00:00",
+  "as_of": "2026-10-03T00:36:11.678749+00:00",
   "race_count": 156,
   "active_venues": 13,
   "venues": [
@@ -1755,9 +1755,9 @@
       "title": "朝トク予選",
       "deadline": "2026-10-03 08:47:00",
       "entries": 6,
-      "preview": 0,
-      "odds": 0,
-      "result": false,
+      "preview": 6,
+      "odds": 120,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
@@ -1770,9 +1770,9 @@
       "title": "狙いトク特選",
       "deadline": "2026-10-03 09:13:00",
       "entries": 6,
-      "preview": 0,
-      "odds": 0,
-      "result": false,
+      "preview": 6,
+      "odds": 120,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
@@ -1785,8 +1785,8 @@
       "title": "決めトク特賞",
       "deadline": "2026-10-03 09:39:00",
       "entries": 6,
-      "preview": 0,
-      "odds": 0,
+      "preview": 6,
+      "odds": 120,
       "result": false,
       "canceled": false,
       "absent_lanes": [],
@@ -2295,9 +2295,9 @@
       "title": "朝1戦",
       "deadline": "2026-10-03 08:35:00",
       "entries": 6,
-      "preview": 0,
-      "odds": 0,
-      "result": false,
+      "preview": 6,
+      "odds": 120,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
@@ -2310,9 +2310,9 @@
       "title": "モー2ング戦",
       "deadline": "2026-10-03 09:01:00",
       "entries": 6,
-      "preview": 0,
-      "odds": 0,
-      "result": false,
+      "preview": 6,
+      "odds": 120,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
@@ -2325,8 +2325,8 @@
       "title": "3ライズ戦",
       "deadline": "2026-10-03 09:27:00",
       "entries": 6,
-      "preview": 0,
-      "odds": 0,
+      "preview": 6,
+      "odds": 120,
       "result": false,
       "canceled": false,
       "absent_lanes": [],
@@ -2472,113 +2472,113 @@
   "fetches": [
     {
       "source": "payouts",
-      "status": 404,
-      "observed_at": "2026-10-02T20:38:50.606462+00:00",
-      "error": "HTTP Error 404: Not Found",
-      "normalized": 0
+      "status": 200,
+      "observed_at": "2026-10-03T00:36:04.004624+00:00",
+      "error": null,
+      "normalized": 1
     },
     {
       "source": "realtime",
-      "status": 404,
-      "observed_at": "2026-10-02T20:38:50.593906+00:00",
-      "error": "HTTP Error 404: Not Found",
-      "normalized": 0
+      "status": 200,
+      "observed_at": "2026-10-03T00:36:03.952627+00:00",
+      "error": null,
+      "normalized": 1
     },
     {
       "source": "od3",
-      "status": 404,
-      "observed_at": "2026-10-02T20:38:50.593608+00:00",
-      "error": "HTTP Error 404: Not Found",
-      "normalized": 0
+      "status": 200,
+      "observed_at": "2026-10-03T00:36:03.937556+00:00",
+      "error": null,
+      "normalized": 1
     },
     {
       "source": "tokuten_hayami",
-      "status": 404,
-      "observed_at": "2026-10-02T20:38:50.585480+00:00",
-      "error": "HTTP Error 404: Not Found",
-      "normalized": 0
+      "status": 200,
+      "observed_at": "2026-10-03T00:36:03.929702+00:00",
+      "error": null,
+      "normalized": 1
     },
     {
       "source": "original_exhibition",
-      "status": 404,
-      "observed_at": "2026-10-02T20:38:50.606932+00:00",
-      "error": "HTTP Error 404: Not Found",
-      "normalized": 0
+      "status": 200,
+      "observed_at": "2026-10-03T00:36:03.916926+00:00",
+      "error": null,
+      "normalized": 1
     },
     {
       "source": "sui",
-      "status": 404,
-      "observed_at": "2026-10-02T20:38:50.561890+00:00",
-      "error": "HTTP Error 404: Not Found",
-      "normalized": 0
+      "status": 200,
+      "observed_at": "2026-10-03T00:36:03.847710+00:00",
+      "error": null,
+      "normalized": 1
     },
     {
       "source": "stt",
-      "status": 404,
-      "observed_at": "2026-10-02T20:38:50.564826+00:00",
-      "error": "HTTP Error 404: Not Found",
-      "normalized": 0
+      "status": 200,
+      "observed_at": "2026-10-03T00:36:03.848203+00:00",
+      "error": null,
+      "normalized": 1
     },
     {
       "source": "tkz",
-      "status": 404,
-      "observed_at": "2026-10-02T20:38:50.556129+00:00",
-      "error": "HTTP Error 404: Not Found",
-      "normalized": 0
+      "status": 200,
+      "observed_at": "2026-10-03T00:36:03.840065+00:00",
+      "error": null,
+      "normalized": 1
     },
     {
       "source": "motor_history",
       "status": 404,
-      "observed_at": "2026-10-02T20:38:50.539983+00:00",
+      "observed_at": "2026-10-03T00:36:03.828301+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "motor_stats",
-      "status": 404,
-      "observed_at": "2026-10-02T20:38:50.540780+00:00",
-      "error": "HTTP Error 404: Not Found",
-      "normalized": 0
+      "status": 200,
+      "observed_at": "2026-10-03T00:36:03.758330+00:00",
+      "error": null,
+      "normalized": 1
     },
     {
       "source": "recent_local",
-      "status": 404,
-      "observed_at": "2026-10-02T20:38:50.522884+00:00",
-      "error": "HTTP Error 404: Not Found",
-      "normalized": 0
+      "status": 200,
+      "observed_at": "2026-10-03T00:36:03.754527+00:00",
+      "error": null,
+      "normalized": 1
     },
     {
       "source": "recent_national",
-      "status": 404,
-      "observed_at": "2026-10-02T20:38:50.517516+00:00",
-      "error": "HTTP Error 404: Not Found",
-      "normalized": 0
+      "status": 200,
+      "observed_at": "2026-10-03T00:36:03.762618+00:00",
+      "error": null,
+      "normalized": 1
     },
     {
       "source": "waku10",
-      "status": 404,
-      "observed_at": "2026-10-02T20:38:50.493500+00:00",
-      "error": "HTTP Error 404: Not Found",
-      "normalized": 0
+      "status": 200,
+      "observed_at": "2026-10-03T00:36:03.657434+00:00",
+      "error": null,
+      "normalized": 1
     },
     {
       "source": "race_cards",
-      "status": 404,
-      "observed_at": "2026-10-02T20:38:50.500051+00:00",
-      "error": "HTTP Error 404: Not Found",
-      "normalized": 0
+      "status": 200,
+      "observed_at": "2026-10-03T00:36:03.664817+00:00",
+      "error": null,
+      "normalized": 1
     },
     {
       "source": "title",
-      "status": 404,
-      "observed_at": "2026-10-02T20:38:50.491870+00:00",
-      "error": "HTTP Error 404: Not Found",
-      "normalized": 0
+      "status": 200,
+      "observed_at": "2026-10-03T00:36:03.657764+00:00",
+      "error": null,
+      "normalized": 1
     },
     {
       "source": "openapi",
       "status": 200,
-      "observed_at": "2026-10-02T20:38:50.526046+00:00",
+      "observed_at": "2026-10-03T00:36:03.728311+00:00",
       "error": null,
       "normalized": 1
     }
