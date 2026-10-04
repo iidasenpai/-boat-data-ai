@@ -1,6 +1,6 @@
 {
   "day": "2026-10-04",
-  "as_of": "2026-10-04T11:53:00.846215+00:00",
+  "as_of": "2026-10-04T14:27:31.458504+00:00",
   "race_count": 156,
   "active_venues": 13,
   "venues": [
@@ -2102,7 +2102,7 @@
       "entries": 6,
       "preview": 6,
       "odds": 120,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
@@ -2473,112 +2473,112 @@
     {
       "source": "payouts",
       "status": 200,
-      "observed_at": "2026-10-04T11:52:54.282620+00:00",
+      "observed_at": "2026-10-04T14:27:21.972050+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "realtime",
       "status": 200,
-      "observed_at": "2026-10-04T11:52:54.249402+00:00",
+      "observed_at": "2026-10-04T14:27:21.944474+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "od3",
       "status": 200,
-      "observed_at": "2026-10-04T11:52:54.539714+00:00",
+      "observed_at": "2026-10-04T14:27:21.918367+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "tokuten_hayami",
       "status": 200,
-      "observed_at": "2026-10-04T11:52:54.121670+00:00",
+      "observed_at": "2026-10-04T14:27:21.869006+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "original_exhibition",
       "status": 200,
-      "observed_at": "2026-10-04T11:52:54.198217+00:00",
+      "observed_at": "2026-10-04T14:27:21.861423+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "sui",
       "status": 200,
-      "observed_at": "2026-10-04T11:52:53.986295+00:00",
+      "observed_at": "2026-10-04T14:27:21.802089+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "stt",
       "status": 200,
-      "observed_at": "2026-10-04T11:52:54.011657+00:00",
+      "observed_at": "2026-10-04T14:27:21.760609+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "tkz",
       "status": 200,
-      "observed_at": "2026-10-04T11:52:53.880448+00:00",
+      "observed_at": "2026-10-04T14:27:21.750709+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "motor_history",
       "status": 404,
-      "observed_at": "2026-10-04T11:52:54.270046+00:00",
+      "observed_at": "2026-10-04T14:27:21.714477+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "motor_stats",
       "status": 200,
-      "observed_at": "2026-10-04T11:52:54.061162+00:00",
+      "observed_at": "2026-10-04T14:27:21.652099+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "recent_local",
       "status": 200,
-      "observed_at": "2026-10-04T11:52:53.659098+00:00",
+      "observed_at": "2026-10-04T14:27:21.833045+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "recent_national",
       "status": 200,
-      "observed_at": "2026-10-04T11:52:53.779994+00:00",
+      "observed_at": "2026-10-04T14:27:21.654905+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "waku10",
       "status": 200,
-      "observed_at": "2026-10-04T11:52:53.441667+00:00",
+      "observed_at": "2026-10-04T14:27:21.530866+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "race_cards",
       "status": 200,
-      "observed_at": "2026-10-04T11:52:53.887884+00:00",
+      "observed_at": "2026-10-04T14:27:21.546135+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "title",
       "status": 200,
-      "observed_at": "2026-10-04T11:52:53.442809+00:00",
+      "observed_at": "2026-10-04T14:27:21.510827+00:00",
       "error": null,
       "normalized": 1
     },
     {
       "source": "openapi",
       "status": 200,
-      "observed_at": "2026-10-04T11:52:53.780486+00:00",
+      "observed_at": "2026-10-04T14:27:21.607888+00:00",
       "error": null,
       "normalized": 1
     }
