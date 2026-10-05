@@ -9,6 +9,7 @@ from .meeting import meeting_runs, adjustment
 from .ingest import entries, normalized_preview, normalized_result
 
 VERSION = 'rules-0.2'
+SELECTIVE_VERSION = 'rules-0.3'
 
 def predict(store, rid, as_of, improved=False):
     at = instant(as_of)
@@ -78,10 +79,33 @@ def build_predictions(store, day, as_of):
         baseline = predict(store,row[0],as_of)
         if baseline:
             improved = predict(store,row[0],as_of,improved=True)
-            for prediction in (baseline,improved):
+            # rules-0.3: keep the score model unchanged and only change bet selection.
+            # Backtest rule: buy exactly rank1-rank2-rank3 when the score gap
+            # between rank1 and rank2 is at least 5.0; otherwise skip.
+            selective = json.loads(dump(baseline))
+            selective['version'] = SELECTIVE_VERSION
+            gap = round(selective['rows'][0]['score'] - selective['rows'][1]['score'], 2)
+            selective['score_gap'] = gap
+            if gap >= 5.0:
+                lanes = [r['lane'] for r in selective['rows'][:3]]
+                ticket = '-'.join(map(str, lanes))
+                selective['tickets'] = [ticket]
+                selective['count'] = 1
+                selective['total_yen'] = 100
+                selective['formation'] = ticket
+                selective['decision'] = '購入'
+            else:
+                selective['tickets'] = []
+                selective['count'] = 0
+                selective['total_yen'] = 0
+                selective['formation'] = None
+                selective['decision'] = '見送り'
+            selective['notes'] = list(selective.get('notes', [])) + [f'rules-0.3: 1位-2位スコア差 {gap:.2f}。5.00以上のみ評価1位→2位→3位を100円。']
+            for prediction in (baseline,improved,selective):
                 key = hashlib.sha256((row[0]+prediction['version']+dump(prediction)).encode()).hexdigest()
                 store.db.execute('INSERT OR IGNORE INTO predictions VALUES(?,?,?,?,?)',(key,row[0],instant(as_of),prediction['version'],dump(prediction)))
             improved['baseline']=baseline
+            improved['selective']=selective
             result.append(improved)
     store.db.commit()
     return result

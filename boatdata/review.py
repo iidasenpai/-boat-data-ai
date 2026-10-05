@@ -16,7 +16,7 @@ def build_reviews(store, as_of, limit=600):
         deadline=program.get('closed_at')
         saved=None
         if deadline:
-            saved=store.db.execute('SELECT * FROM predictions WHERE race_id=? AND model_version!="rules-meeting-0.1" AND predicted_at<? AND predicted_at<=? ORDER BY predicted_at DESC,id DESC LIMIT 1',(rid,instant(deadline),instant(as_of))).fetchone()
+            saved=store.db.execute('SELECT * FROM predictions WHERE race_id=? AND model_version="rules-0.2" AND predicted_at<? AND predicted_at<=? ORDER BY predicted_at DESC,id DESC LIMIT 1',(rid,instant(deadline),instant(as_of))).fetchone()
         prediction=json.loads(saved['payload']) if saved else None
         tickets=prediction.get('tickets',[]) if prediction else []
         hit=combination in tickets if tickets and combination else None
@@ -49,6 +49,18 @@ def build_reviews(store, as_of, limit=600):
                 snap=store.latest(rid,'result',as_of)
                 if snap:store.db.execute('INSERT OR IGNORE INTO reviews(prediction_id,reviewed_at,result_fingerprint,payload) VALUES(?,?,?,?)',(other['id'],instant(as_of),snap['fingerprint'],dump(comparison)))
         item['comparison']=comparison
+        comparison_v03=None
+        if saved:
+            third=store.db.execute('SELECT * FROM predictions WHERE race_id=? AND model_version=? AND predicted_at=? ORDER BY id DESC LIMIT 1',(rid,'rules-0.3',saved['predicted_at'])).fetchone()
+            if third:
+                candidate=json.loads(third['payload']);ct=candidate.get('tickets',[])
+                # A skipped race is a valid rules-0.3 decision, not a miss.
+                ch=(combination in ct) if ct and combination else None
+                cr=(amount if ch else 0) if ch is not None and amount is not None and not refund else None
+                comparison_v03={'prediction':candidate,'hit':ch,'cost':len(ct)*100,'returned':cr,'profit':cr-len(ct)*100 if cr is not None else None,'skipped':not bool(ct)}
+                snap=store.latest(rid,'result',as_of)
+                if snap:store.db.execute('INSERT OR IGNORE INTO reviews(prediction_id,reviewed_at,result_fingerprint,payload) VALUES(?,?,?,?)',(third['id'],instant(as_of),snap['fingerprint'],dump(comparison_v03)))
+        item['comparison_v03']=comparison_v03
         records.append(item)
         if saved:
             snap=store.latest(rid,'result',as_of)
