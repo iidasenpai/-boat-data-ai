@@ -1,6 +1,6 @@
 {
   "day": "2026-10-31",
-  "as_of": "2026-10-30T15:50:35.548606+00:00",
+  "as_of": "2026-10-30T20:41:18.650049+00:00",
   "race_count": 156,
   "active_venues": 13,
   "venues": [
@@ -2473,112 +2473,112 @@
     {
       "source": "payouts",
       "status": 404,
-      "observed_at": "2026-10-30T15:49:38.781568+00:00",
+      "observed_at": "2026-10-30T20:40:51.243618+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "realtime",
       "status": 404,
-      "observed_at": "2026-10-30T15:49:38.795095+00:00",
+      "observed_at": "2026-10-30T20:40:51.239877+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "od3",
       "status": 404,
-      "observed_at": "2026-10-30T15:49:38.769895+00:00",
+      "observed_at": "2026-10-30T20:40:51.232475+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "tokuten_hayami",
       "status": 404,
-      "observed_at": "2026-10-30T15:49:38.772696+00:00",
+      "observed_at": "2026-10-30T20:40:51.225760+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "original_exhibition",
       "status": 404,
-      "observed_at": "2026-10-30T15:49:38.749735+00:00",
+      "observed_at": "2026-10-30T20:40:51.223571+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "sui",
       "status": 404,
-      "observed_at": "2026-10-30T15:49:38.752942+00:00",
+      "observed_at": "2026-10-30T20:40:51.207239+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "stt",
       "status": 404,
-      "observed_at": "2026-10-30T15:49:38.747679+00:00",
+      "observed_at": "2026-10-30T20:40:51.212707+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "tkz",
       "status": 404,
-      "observed_at": "2026-10-30T15:49:38.736147+00:00",
+      "observed_at": "2026-10-30T20:40:51.203942+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "motor_history",
       "status": 404,
-      "observed_at": "2026-10-30T15:49:38.719775+00:00",
+      "observed_at": "2026-10-30T20:40:51.187958+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "motor_stats",
       "status": 404,
-      "observed_at": "2026-10-30T15:49:38.701174+00:00",
+      "observed_at": "2026-10-30T20:40:51.175875+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "recent_local",
       "status": 404,
-      "observed_at": "2026-10-30T15:49:38.704735+00:00",
+      "observed_at": "2026-10-30T20:40:51.184574+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "recent_national",
       "status": 404,
-      "observed_at": "2026-10-30T15:49:38.692970+00:00",
+      "observed_at": "2026-10-30T20:40:51.204503+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "waku10",
       "status": 404,
-      "observed_at": "2026-10-30T15:49:38.677341+00:00",
+      "observed_at": "2026-10-30T20:40:51.147627+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "race_cards",
       "status": 404,
-      "observed_at": "2026-10-30T15:49:38.663734+00:00",
+      "observed_at": "2026-10-30T20:40:51.148411+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "title",
       "status": 404,
-      "observed_at": "2026-10-30T15:49:38.668988+00:00",
+      "observed_at": "2026-10-30T20:40:51.145111+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "openapi",
       "status": 200,
-      "observed_at": "2026-10-30T15:49:38.703018+00:00",
+      "observed_at": "2026-10-30T20:40:51.149870+00:00",
       "error": null,
       "normalized": 1
     }
