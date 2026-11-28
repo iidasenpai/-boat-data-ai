@@ -1,6 +1,6 @@
 {
   "day": "2026-11-28",
-  "as_of": "2026-11-28T00:00:13.556973+00:00",
+  "as_of": "2026-11-28T07:35:48.028271+00:00",
   "race_count": 168,
   "active_venues": 14,
   "venues": [
@@ -125,8 +125,272 @@
       "status": "出走表あり"
     }
   ],
-  "issue_count": 4,
+  "issue_count": 164,
   "issues": [
+    {
+      "race_id": "202611280101",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280102",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280103",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280201",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280202",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280203",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280204",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280205",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280206",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280207",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280208",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280209",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280210",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280211",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280212",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280301",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280302",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280303",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280304",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280305",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280306",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280307",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280308",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280309",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280310",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280311",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280312",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280601",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280602",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280603",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280604",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280605",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280606",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280607",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280608",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280609",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280610",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280611",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280612",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280701",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280702",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280703",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280801",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280802",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280803",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280804",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280805",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280806",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280807",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280808",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280809",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280810",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280811",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611280812",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281301",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281302",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281303",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281304",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281305",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281306",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281307",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281308",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281309",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281310",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281311",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281312",
+      "code": "ODDS_INCOMPLETE"
+    },
     {
       "race_id": "202611281401",
       "code": "ODDS_INCOMPLETE"
@@ -136,12 +400,388 @@
       "code": "ODDS_INCOMPLETE"
     },
     {
+      "race_id": "202611281403",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281404",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281405",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281406",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281407",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281408",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281409",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281410",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281411",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281412",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281501",
+      "code": "PREVIEW_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281501",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281501",
+      "code": "RESULT_DELAY_OR_MISSING"
+    },
+    {
+      "race_id": "202611281502",
+      "code": "PREVIEW_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281502",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281502",
+      "code": "RESULT_DELAY_OR_MISSING"
+    },
+    {
+      "race_id": "202611281503",
+      "code": "PREVIEW_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281503",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281503",
+      "code": "RESULT_DELAY_OR_MISSING"
+    },
+    {
+      "race_id": "202611281504",
+      "code": "PREVIEW_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281504",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281504",
+      "code": "RESULT_DELAY_OR_MISSING"
+    },
+    {
+      "race_id": "202611281701",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281702",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281703",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281704",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281705",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281706",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281707",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281708",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281709",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281710",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281711",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281712",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
       "race_id": "202611281801",
       "code": "ODDS_INCOMPLETE"
     },
     {
+      "race_id": "202611281802",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281803",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281804",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281805",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281806",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281807",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281807",
+      "code": "RESULT_DELAY_OR_MISSING"
+    },
+    {
+      "race_id": "202611281808",
+      "code": "PREVIEW_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281808",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281808",
+      "code": "RESULT_DELAY_OR_MISSING"
+    },
+    {
+      "race_id": "202611281809",
+      "code": "PREVIEW_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281809",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281809",
+      "code": "RESULT_DELAY_OR_MISSING"
+    },
+    {
+      "race_id": "202611281810",
+      "code": "PREVIEW_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281810",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281810",
+      "code": "RESULT_DELAY_OR_MISSING"
+    },
+    {
+      "race_id": "202611281811",
+      "code": "PREVIEW_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281811",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281811",
+      "code": "RESULT_DELAY_OR_MISSING"
+    },
+    {
+      "race_id": "202611281812",
+      "code": "PREVIEW_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281812",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611281812",
+      "code": "RESULT_DELAY_OR_MISSING"
+    },
+    {
+      "race_id": "202611282001",
+      "code": "PREVIEW_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282001",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282001",
+      "code": "RESULT_DELAY_OR_MISSING"
+    },
+    {
+      "race_id": "202611282002",
+      "code": "PREVIEW_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282002",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282002",
+      "code": "RESULT_DELAY_OR_MISSING"
+    },
+    {
+      "race_id": "202611282003",
+      "code": "PREVIEW_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282003",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282003",
+      "code": "RESULT_DELAY_OR_MISSING"
+    },
+    {
+      "race_id": "202611282004",
+      "code": "PREVIEW_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282004",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282004",
+      "code": "RESULT_DELAY_OR_MISSING"
+    },
+    {
+      "race_id": "202611282005",
+      "code": "PREVIEW_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282005",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282005",
+      "code": "RESULT_DELAY_OR_MISSING"
+    },
+    {
       "race_id": "202611282301",
       "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282302",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282303",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282304",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282305",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282306",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282307",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282308",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282309",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282310",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282311",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282312",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282401",
+      "code": "PREVIEW_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282401",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282401",
+      "code": "RESULT_DELAY_OR_MISSING"
+    },
+    {
+      "race_id": "202611282402",
+      "code": "PREVIEW_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282402",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282402",
+      "code": "RESULT_DELAY_OR_MISSING"
+    },
+    {
+      "race_id": "202611282403",
+      "code": "PREVIEW_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282403",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282403",
+      "code": "RESULT_DELAY_OR_MISSING"
+    },
+    {
+      "race_id": "202611282404",
+      "code": "PREVIEW_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282404",
+      "code": "ODDS_INCOMPLETE"
+    },
+    {
+      "race_id": "202611282404",
+      "code": "RESULT_DELAY_OR_MISSING"
     }
   ],
   "races": [
@@ -152,13 +792,15 @@
       "title": "予選",
       "deadline": "2026-11-28 15:25:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280102",
@@ -167,13 +809,15 @@
       "title": "予選",
       "deadline": "2026-11-28 15:54:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280103",
@@ -182,13 +826,15 @@
       "title": "予選",
       "deadline": "2026-11-28 16:19:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
       "result": false,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280104",
@@ -332,13 +978,15 @@
       "title": "予選",
       "deadline": "2026-11-28 10:45:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280202",
@@ -347,13 +995,15 @@
       "title": "予選",
       "deadline": "2026-11-28 11:12:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280203",
@@ -362,13 +1012,15 @@
       "title": "予選",
       "deadline": "2026-11-28 11:39:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280204",
@@ -377,13 +1029,15 @@
       "title": "予選",
       "deadline": "2026-11-28 12:06:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280205",
@@ -392,13 +1046,15 @@
       "title": "ウインウイン5",
       "deadline": "2026-11-28 12:33:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280206",
@@ -407,13 +1063,15 @@
       "title": "予選",
       "deadline": "2026-11-28 13:00:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280207",
@@ -422,13 +1080,15 @@
       "title": "ウインウイン7",
       "deadline": "2026-11-28 13:27:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280208",
@@ -437,13 +1097,15 @@
       "title": "予選",
       "deadline": "2026-11-28 13:55:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280209",
@@ -452,13 +1114,15 @@
       "title": "戸田特賞",
       "deadline": "2026-11-28 14:22:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280210",
@@ -467,13 +1131,15 @@
       "title": "戸田特賞",
       "deadline": "2026-11-28 14:50:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280211",
@@ -482,13 +1148,15 @@
       "title": "戸田特選",
       "deadline": "2026-11-28 15:22:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280212",
@@ -497,178 +1165,204 @@
       "title": "記者選抜戦",
       "deadline": "2026-11-28 15:55:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280301",
       "venue": "江戸川",
       "number": 1,
       "title": "予選",
-      "deadline": "2026-11-28 10:59:00",
+      "deadline": "2026-11-28 11:07:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280302",
       "venue": "江戸川",
       "number": 2,
       "title": "予選",
-      "deadline": "2026-11-28 11:25:00",
+      "deadline": "2026-11-28 11:34:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280303",
       "venue": "江戸川",
       "number": 3,
       "title": "予選",
-      "deadline": "2026-11-28 11:51:00",
+      "deadline": "2026-11-28 11:59:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280304",
       "venue": "江戸川",
       "number": 4,
       "title": "予選",
-      "deadline": "2026-11-28 12:17:00",
+      "deadline": "2026-11-28 12:25:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280305",
       "venue": "江戸川",
       "number": 5,
       "title": "予選",
-      "deadline": "2026-11-28 12:43:00",
+      "deadline": "2026-11-28 12:52:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280306",
       "venue": "江戸川",
       "number": 6,
       "title": "予選",
-      "deadline": "2026-11-28 13:09:00",
+      "deadline": "2026-11-28 13:17:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280307",
       "venue": "江戸川",
       "number": 7,
       "title": "予選",
-      "deadline": "2026-11-28 13:35:00",
+      "deadline": "2026-11-28 13:42:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280308",
       "venue": "江戸川",
       "number": 8,
       "title": "予選",
-      "deadline": "2026-11-28 14:02:00",
+      "deadline": "2026-11-28 14:08:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 5,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
-      "absent_lanes": [],
-      "eligible_combinations": 120,
-      "issues": []
+      "absent_lanes": [
+        6
+      ],
+      "eligible_combinations": 60,
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280309",
       "venue": "江戸川",
       "number": 9,
       "title": "予選特賞",
-      "deadline": "2026-11-28 14:30:00",
+      "deadline": "2026-11-28 14:34:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280310",
       "venue": "江戸川",
       "number": 10,
       "title": "予選特賞",
-      "deadline": "2026-11-28 14:59:00",
+      "deadline": "2026-11-28 15:01:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280311",
       "venue": "江戸川",
       "number": 11,
       "title": "予選特選",
-      "deadline": "2026-11-28 15:29:00",
+      "deadline": "2026-11-28 15:30:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280312",
@@ -677,13 +1371,15 @@
       "title": "記者選抜戦",
       "deadline": "2026-11-28 16:00:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280601",
@@ -692,13 +1388,15 @@
       "title": "予選",
       "deadline": "2026-11-28 10:29:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280602",
@@ -707,13 +1405,15 @@
       "title": "予選",
       "deadline": "2026-11-28 10:57:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280603",
@@ -722,13 +1422,15 @@
       "title": "予選",
       "deadline": "2026-11-28 11:27:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280604",
@@ -737,13 +1439,15 @@
       "title": "予選",
       "deadline": "2026-11-28 11:53:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280605",
@@ -752,13 +1456,15 @@
       "title": "予選",
       "deadline": "2026-11-28 12:21:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280606",
@@ -767,13 +1473,15 @@
       "title": "ランチタイム戦",
       "deadline": "2026-11-28 12:49:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280607",
@@ -782,13 +1490,15 @@
       "title": "予選",
       "deadline": "2026-11-28 13:19:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280608",
@@ -797,13 +1507,15 @@
       "title": "予選特賞",
       "deadline": "2026-11-28 13:48:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280609",
@@ -812,13 +1524,15 @@
       "title": "予選特賞",
       "deadline": "2026-11-28 14:19:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280610",
@@ -827,13 +1541,15 @@
       "title": "ブレイクタイム",
       "deadline": "2026-11-28 14:47:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280611",
@@ -842,13 +1558,15 @@
       "title": "予選特選",
       "deadline": "2026-11-28 15:15:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280612",
@@ -857,13 +1575,15 @@
       "title": "ドリーム戦",
       "deadline": "2026-11-28 15:50:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280701",
@@ -872,13 +1592,15 @@
       "title": "予選",
       "deadline": "2026-11-28 15:20:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280702",
@@ -887,13 +1609,15 @@
       "title": "予選",
       "deadline": "2026-11-28 15:46:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280703",
@@ -902,13 +1626,15 @@
       "title": "予選",
       "deadline": "2026-11-28 16:14:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280704",
@@ -917,7 +1643,7 @@
       "title": "予選",
       "deadline": "2026-11-28 16:40:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
       "result": false,
       "canceled": false,
@@ -1052,13 +1778,15 @@
       "title": "予選",
       "deadline": "2026-11-28 10:26:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280802",
@@ -1067,13 +1795,15 @@
       "title": "一般",
       "deadline": "2026-11-28 10:53:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280803",
@@ -1082,13 +1812,15 @@
       "title": "一般",
       "deadline": "2026-11-28 11:20:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280804",
@@ -1097,13 +1829,15 @@
       "title": "予選",
       "deadline": "2026-11-28 11:48:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280805",
@@ -1112,13 +1846,15 @@
       "title": "予選",
       "deadline": "2026-11-28 12:16:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280806",
@@ -1127,13 +1863,15 @@
       "title": "一般",
       "deadline": "2026-11-28 12:44:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280807",
@@ -1142,13 +1880,15 @@
       "title": "一般",
       "deadline": "2026-11-28 13:12:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280808",
@@ -1157,13 +1897,15 @@
       "title": "予選",
       "deadline": "2026-11-28 13:44:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280809",
@@ -1172,13 +1914,15 @@
       "title": "予選",
       "deadline": "2026-11-28 14:16:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280810",
@@ -1187,13 +1931,15 @@
       "title": "準優勝戦",
       "deadline": "2026-11-28 14:53:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280811",
@@ -1202,13 +1948,15 @@
       "title": "準優勝戦",
       "deadline": "2026-11-28 15:31:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611280812",
@@ -1217,13 +1965,15 @@
       "title": "準優勝戦",
       "deadline": "2026-11-28 16:10:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281301",
@@ -1232,13 +1982,15 @@
       "title": "朝からセンプル",
       "deadline": "2026-11-28 10:35:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281302",
@@ -1247,13 +1999,15 @@
       "title": "予選",
       "deadline": "2026-11-28 11:01:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281303",
@@ -1262,13 +2016,15 @@
       "title": "予選",
       "deadline": "2026-11-28 11:30:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281304",
@@ -1277,13 +2033,15 @@
       "title": "予選",
       "deadline": "2026-11-28 11:59:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281305",
@@ -1292,13 +2050,15 @@
       "title": "予選",
       "deadline": "2026-11-28 12:24:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281306",
@@ -1307,13 +2067,15 @@
       "title": "昼どきピンクル",
       "deadline": "2026-11-28 12:57:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281307",
@@ -1322,13 +2084,15 @@
       "title": "予選",
       "deadline": "2026-11-28 13:24:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281308",
@@ -1337,13 +2101,15 @@
       "title": "予選",
       "deadline": "2026-11-28 14:00:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281309",
@@ -1352,13 +2118,15 @@
       "title": "予選",
       "deadline": "2026-11-28 14:36:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281310",
@@ -1367,13 +2135,15 @@
       "title": "予選特賞",
       "deadline": "2026-11-28 15:07:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281311",
@@ -1382,13 +2152,15 @@
       "title": "予選特選",
       "deadline": "2026-11-28 15:38:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281312",
@@ -1397,13 +2169,15 @@
       "title": "予選特選",
       "deadline": "2026-11-28 16:05:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281401",
@@ -1414,7 +2188,7 @@
       "entries": 6,
       "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
@@ -1431,7 +2205,7 @@
       "entries": 6,
       "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
@@ -1446,13 +2220,15 @@
       "title": "どきどきなると",
       "deadline": "2026-11-28 09:27:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281404",
@@ -1461,13 +2237,15 @@
       "title": "とにかくなると",
       "deadline": "2026-11-28 09:53:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281405",
@@ -1476,13 +2254,15 @@
       "title": "予選",
       "deadline": "2026-11-28 10:21:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281406",
@@ -1491,13 +2271,15 @@
       "title": "予選",
       "deadline": "2026-11-28 10:49:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281407",
@@ -1506,13 +2288,15 @@
       "title": "予選",
       "deadline": "2026-11-28 11:16:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281408",
@@ -1521,13 +2305,15 @@
       "title": "予選",
       "deadline": "2026-11-28 11:55:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281409",
@@ -1536,13 +2322,15 @@
       "title": "特賞",
       "deadline": "2026-11-28 12:29:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281410",
@@ -1551,13 +2339,15 @@
       "title": "特賞",
       "deadline": "2026-11-28 13:04:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281411",
@@ -1566,13 +2356,15 @@
       "title": "特選",
       "deadline": "2026-11-28 13:39:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281412",
@@ -1581,20 +2373,22 @@
       "title": "特選",
       "deadline": "2026-11-28 14:12:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281501",
       "venue": "丸亀",
       "number": 1,
       "title": "予選",
-      "deadline": "2026-11-28 15:23:00",
+      "deadline": "2026-11-28 12:45:00",
       "entries": 6,
       "preview": 0,
       "odds": 0,
@@ -1602,14 +2396,18 @@
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "PREVIEW_INCOMPLETE",
+        "ODDS_INCOMPLETE",
+        "RESULT_DELAY_OR_MISSING"
+      ]
     },
     {
       "race_id": "202611281502",
       "venue": "丸亀",
       "number": 2,
       "title": "予選",
-      "deadline": "2026-11-28 15:52:00",
+      "deadline": "2026-11-28 12:51:00",
       "entries": 6,
       "preview": 0,
       "odds": 0,
@@ -1617,14 +2415,18 @@
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "PREVIEW_INCOMPLETE",
+        "ODDS_INCOMPLETE",
+        "RESULT_DELAY_OR_MISSING"
+      ]
     },
     {
       "race_id": "202611281503",
       "venue": "丸亀",
       "number": 3,
       "title": "予選",
-      "deadline": "2026-11-28 16:24:00",
+      "deadline": "2026-11-28 12:57:00",
       "entries": 6,
       "preview": 0,
       "odds": 0,
@@ -1632,14 +2434,18 @@
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "PREVIEW_INCOMPLETE",
+        "ODDS_INCOMPLETE",
+        "RESULT_DELAY_OR_MISSING"
+      ]
     },
     {
       "race_id": "202611281504",
       "venue": "丸亀",
       "number": 4,
       "title": "予選",
-      "deadline": "2026-11-28 16:50:00",
+      "deadline": "2026-11-28 13:03:00",
       "entries": 6,
       "preview": 0,
       "odds": 0,
@@ -1647,7 +2453,11 @@
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "PREVIEW_INCOMPLETE",
+        "ODDS_INCOMPLETE",
+        "RESULT_DELAY_OR_MISSING"
+      ]
     },
     {
       "race_id": "202611281505",
@@ -1776,13 +2586,15 @@
       "title": "ファーストB",
       "deadline": "2026-11-28 10:19:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281702",
@@ -1791,13 +2603,15 @@
       "title": "一般戦",
       "deadline": "2026-11-28 10:44:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281703",
@@ -1806,13 +2620,15 @@
       "title": "一般戦",
       "deadline": "2026-11-28 11:11:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281704",
@@ -1821,13 +2637,15 @@
       "title": "一般戦",
       "deadline": "2026-11-28 11:37:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281705",
@@ -1836,13 +2654,15 @@
       "title": "一般戦",
       "deadline": "2026-11-28 12:02:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281706",
@@ -1851,13 +2671,15 @@
       "title": "一般戦",
       "deadline": "2026-11-28 12:27:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281707",
@@ -1866,58 +2688,66 @@
       "title": "ランチタイム",
       "deadline": "2026-11-28 12:52:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281708",
       "venue": "宮島",
       "number": 8,
       "title": "一般戦",
-      "deadline": "2026-11-28 13:21:00",
+      "deadline": "2026-11-28 13:22:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281709",
       "venue": "宮島",
       "number": 9,
       "title": "一般戦",
-      "deadline": "2026-11-28 13:46:00",
+      "deadline": "2026-11-28 13:47:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281710",
       "venue": "宮島",
       "number": 10,
       "title": "準優勝戦",
-      "deadline": "2026-11-28 14:10:00",
+      "deadline": "2026-11-28 14:11:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281711",
@@ -1926,13 +2756,15 @@
       "title": "準優勝戦",
       "deadline": "2026-11-28 14:45:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281712",
@@ -1941,13 +2773,15 @@
       "title": "準優勝戦",
       "deadline": "2026-11-28 15:28:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281801",
@@ -1958,7 +2792,7 @@
       "entries": 6,
       "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
@@ -1973,13 +2807,15 @@
       "title": "狙いトク一般",
       "deadline": "2026-11-28 09:17:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281803",
@@ -1988,13 +2824,15 @@
       "title": "決めトク一般",
       "deadline": "2026-11-28 09:43:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281804",
@@ -2003,13 +2841,15 @@
       "title": "ガチトク一般",
       "deadline": "2026-11-28 10:09:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281805",
@@ -2018,13 +2858,15 @@
       "title": "一般",
       "deadline": "2026-11-28 10:37:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281806",
@@ -2033,13 +2875,15 @@
       "title": "一般",
       "deadline": "2026-11-28 11:06:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611281807",
@@ -2048,20 +2892,23 @@
       "title": "一般",
       "deadline": "2026-11-28 11:38:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
       "result": false,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE",
+        "RESULT_DELAY_OR_MISSING"
+      ]
     },
     {
       "race_id": "202611281808",
       "venue": "徳山",
       "number": 8,
       "title": "一般",
-      "deadline": "2026-11-28 12:10:00",
+      "deadline": "2026-11-28 12:17:00",
       "entries": 6,
       "preview": 0,
       "odds": 0,
@@ -2069,14 +2916,18 @@
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "PREVIEW_INCOMPLETE",
+        "ODDS_INCOMPLETE",
+        "RESULT_DELAY_OR_MISSING"
+      ]
     },
     {
       "race_id": "202611281809",
       "venue": "徳山",
       "number": 9,
       "title": "推しトク一般",
-      "deadline": "2026-11-28 12:42:00",
+      "deadline": "2026-11-28 12:18:00",
       "entries": 6,
       "preview": 0,
       "odds": 0,
@@ -2084,14 +2935,18 @@
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "PREVIEW_INCOMPLETE",
+        "ODDS_INCOMPLETE",
+        "RESULT_DELAY_OR_MISSING"
+      ]
     },
     {
       "race_id": "202611281810",
       "venue": "徳山",
       "number": 10,
       "title": "準優勝戦",
-      "deadline": "2026-11-28 13:16:00",
+      "deadline": "2026-11-28 12:24:00",
       "entries": 6,
       "preview": 0,
       "odds": 0,
@@ -2099,14 +2954,18 @@
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "PREVIEW_INCOMPLETE",
+        "ODDS_INCOMPLETE",
+        "RESULT_DELAY_OR_MISSING"
+      ]
     },
     {
       "race_id": "202611281811",
       "venue": "徳山",
       "number": 11,
       "title": "準優勝戦",
-      "deadline": "2026-11-28 13:50:00",
+      "deadline": "2026-11-28 12:30:00",
       "entries": 6,
       "preview": 0,
       "odds": 0,
@@ -2114,14 +2973,18 @@
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "PREVIEW_INCOMPLETE",
+        "ODDS_INCOMPLETE",
+        "RESULT_DELAY_OR_MISSING"
+      ]
     },
     {
       "race_id": "202611281812",
       "venue": "徳山",
       "number": 12,
       "title": "準優勝戦",
-      "deadline": "2026-11-28 14:28:00",
+      "deadline": "2026-11-28 12:41:00",
       "entries": 6,
       "preview": 0,
       "odds": 0,
@@ -2129,14 +2992,18 @@
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "PREVIEW_INCOMPLETE",
+        "ODDS_INCOMPLETE",
+        "RESULT_DELAY_OR_MISSING"
+      ]
     },
     {
       "race_id": "202611282001",
       "venue": "若松",
       "number": 1,
       "title": "一般戦",
-      "deadline": "2026-11-28 15:18:00",
+      "deadline": "2026-11-28 12:29:00",
       "entries": 6,
       "preview": 0,
       "odds": 0,
@@ -2144,14 +3011,18 @@
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "PREVIEW_INCOMPLETE",
+        "ODDS_INCOMPLETE",
+        "RESULT_DELAY_OR_MISSING"
+      ]
     },
     {
       "race_id": "202611282002",
       "venue": "若松",
       "number": 2,
       "title": "一般戦",
-      "deadline": "2026-11-28 15:43:00",
+      "deadline": "2026-11-28 12:35:00",
       "entries": 6,
       "preview": 0,
       "odds": 0,
@@ -2159,14 +3030,18 @@
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "PREVIEW_INCOMPLETE",
+        "ODDS_INCOMPLETE",
+        "RESULT_DELAY_OR_MISSING"
+      ]
     },
     {
       "race_id": "202611282003",
       "venue": "若松",
       "number": 3,
       "title": "一般戦",
-      "deadline": "2026-11-28 16:07:00",
+      "deadline": "2026-11-28 12:41:00",
       "entries": 6,
       "preview": 0,
       "odds": 0,
@@ -2174,14 +3049,18 @@
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "PREVIEW_INCOMPLETE",
+        "ODDS_INCOMPLETE",
+        "RESULT_DELAY_OR_MISSING"
+      ]
     },
     {
       "race_id": "202611282004",
       "venue": "若松",
       "number": 4,
       "title": "一般戦",
-      "deadline": "2026-11-28 16:35:00",
+      "deadline": "2026-11-28 12:47:00",
       "entries": 6,
       "preview": 0,
       "odds": 0,
@@ -2189,14 +3068,18 @@
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "PREVIEW_INCOMPLETE",
+        "ODDS_INCOMPLETE",
+        "RESULT_DELAY_OR_MISSING"
+      ]
     },
     {
       "race_id": "202611282005",
       "venue": "若松",
       "number": 5,
       "title": "進入固定戦隊",
-      "deadline": "2026-11-28 17:01:00",
+      "deadline": "2026-11-28 12:53:00",
       "entries": 6,
       "preview": 0,
       "odds": 0,
@@ -2204,7 +3087,11 @@
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "PREVIEW_INCOMPLETE",
+        "ODDS_INCOMPLETE",
+        "RESULT_DELAY_OR_MISSING"
+      ]
     },
     {
       "race_id": "202611282006",
@@ -2320,7 +3207,7 @@
       "entries": 6,
       "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
@@ -2335,13 +3222,15 @@
       "title": "モー2ング戦",
       "deadline": "2026-11-28 09:09:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611282303",
@@ -2350,13 +3239,15 @@
       "title": "3ライズ戦",
       "deadline": "2026-11-28 09:35:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611282304",
@@ -2365,13 +3256,15 @@
       "title": "おは4戦",
       "deadline": "2026-11-28 10:01:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611282305",
@@ -2380,13 +3273,15 @@
       "title": "レッツ5特賞",
       "deadline": "2026-11-28 10:32:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611282306",
@@ -2395,13 +3290,15 @@
       "title": "予選",
       "deadline": "2026-11-28 11:03:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611282307",
@@ -2410,13 +3307,15 @@
       "title": "予選",
       "deadline": "2026-11-28 11:33:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611282308",
@@ -2425,13 +3324,15 @@
       "title": "8っぴータイム",
       "deadline": "2026-11-28 12:04:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611282309",
@@ -2440,13 +3341,15 @@
       "title": "予選",
       "deadline": "2026-11-28 12:36:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611282310",
@@ -2455,13 +3358,15 @@
       "title": "予選特賞",
       "deadline": "2026-11-28 13:07:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611282311",
@@ -2470,13 +3375,15 @@
       "title": "宝当特選",
       "deadline": "2026-11-28 13:42:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611282312",
@@ -2485,20 +3392,22 @@
       "title": "からっキー選抜",
       "deadline": "2026-11-28 14:23:00",
       "entries": 6,
-      "preview": 0,
+      "preview": 6,
       "odds": 0,
-      "result": false,
+      "result": true,
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "ODDS_INCOMPLETE"
+      ]
     },
     {
       "race_id": "202611282401",
       "venue": "大村",
       "number": 1,
       "title": "予選",
-      "deadline": "2026-11-28 15:17:00",
+      "deadline": "2026-11-28 13:31:00",
       "entries": 6,
       "preview": 0,
       "odds": 0,
@@ -2506,14 +3415,18 @@
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "PREVIEW_INCOMPLETE",
+        "ODDS_INCOMPLETE",
+        "RESULT_DELAY_OR_MISSING"
+      ]
     },
     {
       "race_id": "202611282402",
       "venue": "大村",
       "number": 2,
       "title": "予選",
-      "deadline": "2026-11-28 15:41:00",
+      "deadline": "2026-11-28 13:37:00",
       "entries": 6,
       "preview": 0,
       "odds": 0,
@@ -2521,14 +3434,18 @@
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "PREVIEW_INCOMPLETE",
+        "ODDS_INCOMPLETE",
+        "RESULT_DELAY_OR_MISSING"
+      ]
     },
     {
       "race_id": "202611282403",
       "venue": "大村",
       "number": 3,
       "title": "予選",
-      "deadline": "2026-11-28 16:30:00",
+      "deadline": "2026-11-28 13:43:00",
       "entries": 6,
       "preview": 0,
       "odds": 0,
@@ -2536,14 +3453,18 @@
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "PREVIEW_INCOMPLETE",
+        "ODDS_INCOMPLETE",
+        "RESULT_DELAY_OR_MISSING"
+      ]
     },
     {
       "race_id": "202611282404",
       "venue": "大村",
       "number": 4,
       "title": "予選",
-      "deadline": "2026-11-28 16:56:00",
+      "deadline": "2026-11-28 13:49:00",
       "entries": 6,
       "preview": 0,
       "odds": 0,
@@ -2551,7 +3472,11 @@
       "canceled": false,
       "absent_lanes": [],
       "eligible_combinations": 120,
-      "issues": []
+      "issues": [
+        "PREVIEW_INCOMPLETE",
+        "ODDS_INCOMPLETE",
+        "RESULT_DELAY_OR_MISSING"
+      ]
     },
     {
       "race_id": "202611282405",
@@ -2678,112 +3603,112 @@
     {
       "source": "payouts",
       "status": 404,
-      "observed_at": "2026-11-27T23:59:23.392974+00:00",
+      "observed_at": "2026-11-28T07:34:38.514471+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "realtime",
       "status": 404,
-      "observed_at": "2026-11-27T23:59:23.319567+00:00",
+      "observed_at": "2026-11-28T07:34:38.506202+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "od3",
       "status": 404,
-      "observed_at": "2026-11-27T23:59:23.294980+00:00",
+      "observed_at": "2026-11-28T07:34:38.484332+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "tokuten_hayami",
       "status": 404,
-      "observed_at": "2026-11-27T23:59:23.312938+00:00",
+      "observed_at": "2026-11-28T07:34:38.474633+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "original_exhibition",
       "status": 404,
-      "observed_at": "2026-11-27T23:59:23.296483+00:00",
+      "observed_at": "2026-11-28T07:34:38.484561+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "sui",
       "status": 404,
-      "observed_at": "2026-11-27T23:59:23.207519+00:00",
+      "observed_at": "2026-11-28T07:34:38.455470+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "stt",
       "status": 404,
-      "observed_at": "2026-11-27T23:59:23.186505+00:00",
+      "observed_at": "2026-11-28T07:34:38.446807+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "tkz",
       "status": 404,
-      "observed_at": "2026-11-27T23:59:23.160865+00:00",
+      "observed_at": "2026-11-28T07:34:38.427167+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "motor_history",
       "status": 404,
-      "observed_at": "2026-11-27T23:59:23.205926+00:00",
+      "observed_at": "2026-11-28T07:34:38.429720+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "motor_stats",
       "status": 404,
-      "observed_at": "2026-11-27T23:59:23.134051+00:00",
+      "observed_at": "2026-11-28T07:34:38.400388+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "recent_local",
       "status": 404,
-      "observed_at": "2026-11-27T23:59:23.115672+00:00",
+      "observed_at": "2026-11-28T07:34:38.409490+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "recent_national",
       "status": 404,
-      "observed_at": "2026-11-27T23:59:23.044386+00:00",
+      "observed_at": "2026-11-28T07:34:38.380735+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "waku10",
       "status": 404,
-      "observed_at": "2026-11-27T23:59:23.021525+00:00",
+      "observed_at": "2026-11-28T07:34:38.314283+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "race_cards",
       "status": 404,
-      "observed_at": "2026-11-27T23:59:22.946009+00:00",
+      "observed_at": "2026-11-28T07:34:38.314659+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "title",
       "status": 404,
-      "observed_at": "2026-11-27T23:59:23.198878+00:00",
+      "observed_at": "2026-11-28T07:34:38.317987+00:00",
       "error": "HTTP Error 404: Not Found",
       "normalized": 0
     },
     {
       "source": "openapi",
       "status": 200,
-      "observed_at": "2026-11-27T23:59:23.363060+00:00",
+      "observed_at": "2026-11-28T07:34:38.345236+00:00",
       "error": null,
       "normalized": 1
     }
